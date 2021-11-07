@@ -108,6 +108,10 @@ app.get('/',(req,res)=>{
   res.send('Running is Coming with Data base on MongoDb')
 })
 
+app.get('/hello',(req,res)=>{
+  res.send('hello heruku vai ki khobor ')
+})
+
 app.listen(port,()=>{
   console.log('Running Server on port',port);
 })
